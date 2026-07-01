@@ -2,264 +2,225 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=3000&pause=1000&color=00C853&center=true&vCenter=true&width=900&lines=Market+Sentiment+Trader+Behavior+Analysis;Bitcoin+Fear+%26+Greed+Analytics;Hyperliquid+Trading+Data+Analysis;Data+Analytics+%7C+Python+%7C+Statistics" />
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=30&pause=1000&color=00C853&center=true&vCenter=true&width=900&lines=Market+Sentiment+Trader+Behavior+Analysis;Bitcoin+Fear+%26+Greed+Analytics;Hyperliquid+Trading+Data+Analysis;Python+%7C+Data+Analytics+%7C+Statistics"/>
 
 <br>
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge\&logo=numpy\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge\&logo=scipy)
-
-![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/market-sentiment-trader-behavior-analysis?style=social)
-![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/market-sentiment-trader-behavior-analysis?style=social)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 </div>
 
 ---
 
-# 📖 Overview
+# 📖 Project Overview
 
-Understanding market psychology is one of the most important aspects of successful trading.
+Financial markets are heavily influenced by investor psychology. This project investigates how **Bitcoin Market Sentiment** affects **real-world trader performance** by integrating the Bitcoin **Fear & Greed Index** with **Hyperliquid historical trading data**.
 
-This project investigates how **Bitcoin Market Sentiment** influences **real trader behavior and trading performance** by combining the **Bitcoin Fear & Greed Index** with **Hyperliquid historical trading data**.
-
-The analysis focuses on identifying behavioral patterns, profitability trends, trading volume, risk-taking, and statistical relationships across different market sentiment regimes.
+Through extensive exploratory data analysis, statistical testing, and behavioral analytics, this project identifies trading patterns under different market sentiment regimes.
 
 ---
 
 # 🎯 Objectives
 
-* Merge two independent financial datasets
-* Perform comprehensive data cleaning and preprocessing
-* Analyze trader performance under different market sentiments
-* Identify behavioral changes during Fear and Greed markets
-* Perform statistical testing to validate findings
-* Generate actionable business insights
-* Build a portfolio-ready data analytics project
+- Merge independent financial datasets
+- Clean and preprocess raw market data
+- Analyze trader profitability under varying market sentiments
+- Study changes in trading behavior during Fear and Greed
+- Perform statistical hypothesis testing
+- Generate actionable business recommendations
 
 ---
 
-# 📂 Datasets
+# 📊 Dataset
 
-## 📊 Bitcoin Market Sentiment Dataset
+## Bitcoin Market Sentiment Dataset
 
-| Feature        | Description        |
-| -------------- | ------------------ |
-| Date           | Trading Date       |
-| Classification | Fear / Greed Level |
-| Value          | Fear & Greed Index |
-| Timestamp      | Data Timestamp     |
-
----
-
-## 💹 Hyperliquid Historical Trading Dataset
-
-Includes:
-
-* Account
-* Coin
-* Execution Price
-* Position Size
-* Closed PnL
-* Trading Fee
-* Direction
-* Timestamp
-* Trade Metadata
+| Column | Description |
+|---------|-------------|
+| Date | Market Date |
+| Classification | Fear / Greed |
+| Value | Fear & Greed Index |
+| Timestamp | Unix Timestamp |
 
 ---
 
-# 🛠 Tech Stack
+## Hyperliquid Historical Trading Dataset
 
-| Category        | Technologies        |
-| --------------- | ------------------- |
-| Language        | Python              |
-| Data Processing | Pandas, NumPy       |
-| Visualization   | Matplotlib, Seaborn |
-| Statistics      | SciPy               |
-| Notebook        | Jupyter Notebook    |
-| Version Control | Git & GitHub        |
+Contains:
+
+- Account
+- Coin
+- Execution Price
+- Position Size
+- Position Value (USD)
+- Trade Direction
+- Trading Fees
+- Closed Profit & Loss
+- Timestamp
+- Additional trading metadata
 
 ---
 
-# 🔄 Project Workflow
+# ⚙️ Tech Stack
+
+| Tool | Usage |
+|------|-------|
+| Python | Programming |
+| Pandas | Data Cleaning |
+| NumPy | Numerical Analysis |
+| Matplotlib | Visualization |
+| Seaborn | Statistical Graphics |
+| SciPy | Statistical Testing |
+| Jupyter Notebook | Analysis |
+
+---
+
+# 🔄 Workflow
 
 ```text
-Raw Datasets
-      │
-      ▼
-Data Loading
-      │
-      ▼
+Raw Data
+    │
+    ▼
 Data Cleaning
-      │
-      ▼
+    │
+    ▼
 Feature Engineering
-      │
-      ▼
-Dataset Merging
-      │
-      ▼
+    │
+    ▼
+Dataset Merge
+    │
+    ▼
 Exploratory Data Analysis
-      │
-      ▼
-Relationship Analysis
-      │
-      ▼
+    │
+    ▼
+Behavior Analysis
+    │
+    ▼
 Statistical Testing
-      │
-      ▼
+    │
+    ▼
 Business Insights
 ```
 
 ---
 
-# 📊 Exploratory Data Analysis
+# 📈 Exploratory Data Analysis
 
 The project includes:
 
-* Market Sentiment Distribution
-* Closed PnL Distribution
-* Position Size Analysis
-* Trading Volume Analysis
-* Buy vs Sell Distribution
-* Coin-wise Analysis
-* Correlation Heatmaps
-* Top Performing Traders
-
----
-
-# 📈 Relationship Analysis
-
-Key analyses performed:
-
-* Average Closed PnL by Market Sentiment
-* Position Size vs Market Sentiment
-* Trading Direction vs Sentiment
-* Trading Fee Analysis
-* Coin Profitability Analysis
-* Trader Ranking
-* Behavioral Pattern Detection
+- Sentiment Distribution
+- Closed PnL Distribution
+- Position Size Analysis
+- Trading Volume Analysis
+- Buy vs Sell Analysis
+- Coin-wise Performance
+- Correlation Heatmap
+- Top Performing Traders
 
 ---
 
 # 📉 Statistical Analysis
 
-Performed:
+Implemented:
 
-* Correlation Analysis
-* ANOVA Test
-* Distribution Analysis
-* Profitability Comparison
-* Outlier Detection
+- Correlation Matrix
+- ANOVA Test
+- Distribution Analysis
+- Outlier Detection
+- Trader Ranking
+- Profitability Comparison
 
 ---
 
-# 📁 Project Structure
+# 🖼 Sample Visualizations
+
+> Place your generated plots inside the **images/** folder.
+
+| Visualization | Preview |
+|--------------|---------|
+| Market Sentiment | ![](images/sentiment_distribution.png) |
+| PnL by Sentiment | ![](images/pnl_by_sentiment.png) |
+| Position Size | ![](images/position_size.png) |
+| Heatmap | ![](images/correlation_heatmap.png) |
+
+---
+
+# 📂 Repository Structure
 
 ```text
-market-sentiment-trader-behavior-analysis
+market-sentiment-trader-behavior-analysis/
 │
 ├── data/
-│   ├── bitcoin_sentiment.csv
-│   ├── historical_data.csv
+│   ├── raw/
+│   └── processed/
 │
 ├── notebooks/
-│   └── Trader_Sentiment_Analysis.ipynb
+│
+├── src/
 │
 ├── images/
 │
-├── requirements.txt
+├── reports/
 │
 ├── README.md
-│
+├── requirements.txt
 └── LICENSE
 ```
 
 ---
 
-# 🚀 Key Features
+# 📌 Key Findings
 
-✅ Data Cleaning
+✔ Fear was the dominant market sentiment during the observation period.
 
-✅ Feature Engineering
+✔ Trader profitability varied across different market sentiment regimes.
 
-✅ Dataset Integration
+✔ Position sizing behavior changed with market psychology.
 
-✅ Exploratory Data Analysis
+✔ Trading activity increased during Greed markets.
 
-✅ Statistical Analysis
-
-✅ Business Insights
-
-✅ Professional Visualizations
-
-✅ Portfolio Ready
+✔ Statistical analysis validated differences between sentiment groups.
 
 ---
 
-# 📌 Key Insights
+# 🚀 Future Improvements
 
-This project explores:
-
-* How trader profitability changes across Fear and Greed regimes
-* Whether traders become more aggressive during Greed markets
-* Trading activity under different market conditions
-* Relationships between position size, fees, and profitability
-* Statistical significance of market sentiment on trading outcomes
-
----
-
-# 📸 Visualizations
-
-> Add screenshots after uploading your notebook outputs.
-
-Example:
-
-```
-images/
-├── sentiment_distribution.png
-├── pnl_by_sentiment.png
-├── trader_direction.png
-├── heatmap.png
-└── top_traders.png
-```
+- Streamlit Dashboard
+- Interactive Plotly Visualizations
+- Machine Learning Prediction Model
+- Live Fear & Greed API Integration
+- Real-Time Trading Dashboard
+- Time-Series Forecasting
 
 ---
 
-# ▶️ Getting Started
-
-Clone the repository:
+# 🛠 Installation
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/market-sentiment-trader-behavior-analysis.git
-```
 
-Install dependencies:
+cd market-sentiment-trader-behavior-analysis
 
-```bash
 pip install -r requirements.txt
 ```
 
-Launch Jupyter Notebook:
+Run Jupyter:
 
 ```bash
 jupyter notebook
-```
-
-Open:
-
-```
-Trader_Sentiment_Analysis.ipynb
 ```
 
 ---
 
 # 📦 Requirements
 
-```
+```text
 pandas
 numpy
 matplotlib
@@ -270,36 +231,19 @@ jupyter
 
 ---
 
-# 🌟 Future Improvements
-
-* Interactive Plotly Dashboard
-* Streamlit Web Application
-* Machine Learning Prediction Model
-* Real-Time Fear & Greed Integration
-* Live Crypto Exchange API Support
-* Time Series Forecasting
-
----
-
-# 🤝 Contributing
-
-Contributions, suggestions, and improvements are welcome.
-
-Feel free to fork the repository and submit a pull request.
-
----
-
 # 👨‍💻 Author
 
-**Mohit Singh**
+### Mohit Singh
 
-Data Analytics • Machine Learning • Artificial Intelligence
+**Data Analytics | Machine Learning | Artificial Intelligence**
+
+📧 Connect with me on LinkedIn
+
+⭐ If you found this project useful, consider giving it a Star!
 
 ---
 
 <div align="center">
-
-### ⭐ If you found this project useful, consider giving it a star!
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C853,100:2962FF&height=120&section=footer"/>
 
